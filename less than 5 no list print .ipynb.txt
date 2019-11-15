@@ -1,0 +1,7 @@
+a  = [1,56.2,22,3,4,5,56,78,90,12,45,83]
+templist = []
+for item in a:
+        if(item < 5):
+          templist.append(item) 
+        
+print(templist)     
